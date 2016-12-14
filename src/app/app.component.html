@@ -11,7 +11,7 @@
 </div>
 
 <ul class="artistlist cf">
-  <li (click)="onClick(item)" *ngFor="#item of artists">
+  <li (click)="onClick(item)" *ngFor="let item of artists">
     <h2>{{item}}</h2>
   </li>
 </ul>
